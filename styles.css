@@ -1,4 +1,27 @@
 /* styles.css */
+/*Pa el campo de filtrar por tipo*/
+#type-input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Estilo del botón de filtrar */
+#filter-btn {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  color: #000;
+  background-color: #00f7ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
 /* Estilo del encabezado */
 header {
